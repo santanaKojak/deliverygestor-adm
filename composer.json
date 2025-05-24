@@ -1,0 +1,22 @@
+{
+    "name": "20dbaweb.designer/gestor-soft",
+    "description": "Projeto GestorSoft",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "20dbaweb.designer",
+            "email": "20dbaweb.designer@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "App\\": "app",
+            "Sts\\": "app/sts"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^3.9",
+        "phpmailer/phpmailer": "^6.10"
+    }
+}
